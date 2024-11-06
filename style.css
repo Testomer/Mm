@@ -1,0 +1,80 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* خلفية داكنة */
+    color: white;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    color: #32CD32; /* اللون الأخضر */
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    color: #32CD32; /* اللون الأخضر للعناوين */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* تخصيص الألوان للمحتوى */
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* الألوان المختلفة */
+.green {
+    background-color: #28a745;
+}
+
+.white {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.blue {
+    background-color: #007bff;
+}
+
+.red {
+    background-color: #dc3545;
+}
+
+/* تحسينات التصميم */
+section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
